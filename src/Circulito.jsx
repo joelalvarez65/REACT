@@ -14,12 +14,13 @@ export function Circulito({ x, y}){
 
   const circulito=document.querySelector("#circulito")
     circulito.style.boxshadow = "${x}px ${y}px ${difuminado} 10px black"
-  })
+
+      })
   },[])
 
     return(
     <div class="centrado" id="circulito">
-        <h className="playwrite-ca"> Esta es mi pagina web </h>
+        <h1 className="playwrite-ca"> Esta es mi pagina web </h1>
     </div>
     )
 }
