@@ -1,4 +1,4 @@
-import { Children } from "./Circulito"
+import {Circulito}from"./Circulito"
 import "./App.css"
 
 function App() {
