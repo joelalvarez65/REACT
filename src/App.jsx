@@ -2,8 +2,7 @@ import { Children } from "./Circulito"
 import "./App.css"
 
 function App() {
-
-
+  
   return (
     <>
       <Circulito/>
